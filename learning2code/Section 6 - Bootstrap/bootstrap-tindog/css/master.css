@@ -1,5 +1,8 @@
+body {
+  font-family: "Montserrat";
+}
+
 h1 {
-  color: #ffffff;
   font-family: "Montserrat";
   font-weight: 900;
   font-size: 3rem;
@@ -7,6 +10,7 @@ h1 {
 }
 
 #title {
+  color: #ffffff;
   background-color: #ff4c68;
 }
 
@@ -19,6 +23,150 @@ h1 {
   margin-right: 0;
 }
 
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
 .navbar-brand {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.navitem {
+  padding: 0 25px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+/* Download Buttons */
+
+.slider-button {
+  margin: 5% 3% 5% 0;
+  font-weight: 200;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 56%;
+  rotate: 20deg;
+}
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+}
+
+#features h3 {
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#features p {
+  color: #8f8f8f;
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+
+}
+
+.feature-box {
+  padding: 7%;
+}
+
+.featurefas {
+  color: #ef8172;
+  font-size: 4rem;
+  padding-bottom: 20px;
+}
+
+.featurefas:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #ffffff;
+  text-align: center;
+}
+
+#testimonials h2 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Carousel */
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+#pricing h2 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+#pricing h3 {
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#pricing p {
+  color: #8f8f8f;
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
