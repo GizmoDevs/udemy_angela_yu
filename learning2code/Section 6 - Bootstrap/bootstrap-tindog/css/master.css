@@ -15,7 +15,7 @@ h1 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 10%;
 }
 
 .row {
@@ -59,14 +59,18 @@ h1 {
 /* Title Image */
 
 .title-image {
-  width: 56%;
+  width: 35%;
   rotate: 20deg;
+  position: absolute;
+  right: 30%;
 }
 
 /* Features */
 
 #features {
   padding: 7% 15%;
+  background-color: #ffffff;
+  position: relative;
 }
 
 #features h3 {
