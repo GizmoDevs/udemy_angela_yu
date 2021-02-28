@@ -59,8 +59,8 @@ h1 {
 /* Title Image */
 
 .title-image {
-  width: 35%;
-  rotate: 20deg;
+  width: 60%;
+  transform: rotate(25deg);
   position: absolute;
   right: 30%;
 }
@@ -173,4 +173,20 @@ h1 {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* CTA */
+
+#cta {
+  background-color: #ff4c68;
+  font-family: 'Montserrat';
+  text-align: center;
+  padding: 100px 0px;
+}
+
+#cta h3 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 50px;
 }
